@@ -1,0 +1,2342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c814dcb3b363d59aff31c2f0cb068b5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c814dcb3b363d59aff31c2f0cb068b5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c814dcb3b363d59aff31c2f0cb068b5 = L.map(
+                "map_7c814dcb3b363d59aff31c2f0cb068b5",
+                {
+                    center: [-23.582185, -46.712515],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a0f65a4ed1e596065f03e68681b86ecd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a0f65a4ed1e596065f03e68681b86ecd.addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var circle_marker_3adc0a5b8586bf4691d57c5929830d4f = L.circleMarker(
+                [-23.582185, -46.712515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_aa3cd1741768b1a31d54c49f3949039a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfa59a583d227cc6256e5c0b3f7cda50 = $(`<div id="html_dfa59a583d227cc6256e5c0b3f7cda50" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:48:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 0, dtype: object</div>`)[0];
+                popup_aa3cd1741768b1a31d54c49f3949039a.setContent(html_dfa59a583d227cc6256e5c0b3f7cda50);
+            
+        
+
+        circle_marker_3adc0a5b8586bf4691d57c5929830d4f.bindPopup(popup_aa3cd1741768b1a31d54c49f3949039a)
+        ;
+
+        
+    
+    
+            var circle_marker_cae05631a175da2c55cbf0e1ddb58a03 = L.circleMarker(
+                [-23.582185, -46.712515],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_50e77d8ddfc38bcd211e31a9bd19bffd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d2e3b2749d3be06283a459a1a94c2c = $(`<div id="html_34d2e3b2749d3be06283a459a1a94c2c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:48:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 1, dtype: object</div>`)[0];
+                popup_50e77d8ddfc38bcd211e31a9bd19bffd.setContent(html_34d2e3b2749d3be06283a459a1a94c2c);
+            
+        
+
+        circle_marker_cae05631a175da2c55cbf0e1ddb58a03.bindPopup(popup_50e77d8ddfc38bcd211e31a9bd19bffd)
+        ;
+
+        
+    
+    
+            var marker_887e7878b7d7a9870abde3e2a49c614a = L.marker(
+                [-23.58214, -46.712447],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_8ce40f88b627c03c534c0dc4bea90d1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c4410626cfb3447904e1bed297994af = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95a3c47cfd3fa4f21c7bcecb398a0225 = $(`<div id="html_95a3c47cfd3fa4f21c7bcecb398a0225" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 03:48:27<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU REC<br>                 </div>`)[0];
+                popup_3c4410626cfb3447904e1bed297994af.setContent(html_95a3c47cfd3fa4f21c7bcecb398a0225);
+            
+        
+
+        marker_887e7878b7d7a9870abde3e2a49c614a.bindPopup(popup_3c4410626cfb3447904e1bed297994af)
+        ;
+
+        
+    
+    
+                marker_887e7878b7d7a9870abde3e2a49c614a.setIcon(icon_8ce40f88b627c03c534c0dc4bea90d1d);
+            
+    
+            var marker_14bf9bd7f9846fcb141384fc8a836a4f = L.marker(
+                [-23.58214, -46.712447],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_146cfcd20e764bce17b2eb676551c790 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5b39f5c4868d2475f5a18ab16143e64 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b20556f6c040d0daab32dc679d02f737 = $(`<div id="html_b20556f6c040d0daab32dc679d02f737" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 03:48:27<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU REC<br>                 </div>`)[0];
+                popup_d5b39f5c4868d2475f5a18ab16143e64.setContent(html_b20556f6c040d0daab32dc679d02f737);
+            
+        
+
+        marker_14bf9bd7f9846fcb141384fc8a836a4f.bindPopup(popup_d5b39f5c4868d2475f5a18ab16143e64)
+        ;
+
+        
+    
+    
+                marker_14bf9bd7f9846fcb141384fc8a836a4f.setIcon(icon_146cfcd20e764bce17b2eb676551c790);
+            
+    
+            var circle_marker_67c01948dad0fa6ea3a14eb68aef7947 = L.circleMarker(
+                [-23.58208, -46.712392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_03aca186f4b0ef34c0aebd45f18d7c76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11dd3692b02658acd1d9a1183a94ba1c = $(`<div id="html_11dd3692b02658acd1d9a1183a94ba1c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:49:09 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 4, dtype: object</div>`)[0];
+                popup_03aca186f4b0ef34c0aebd45f18d7c76.setContent(html_11dd3692b02658acd1d9a1183a94ba1c);
+            
+        
+
+        circle_marker_67c01948dad0fa6ea3a14eb68aef7947.bindPopup(popup_03aca186f4b0ef34c0aebd45f18d7c76)
+        ;
+
+        
+    
+    
+            var circle_marker_cf160f3d3aaf840153d958f7e469374a = L.circleMarker(
+                [-23.58208, -46.712392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_9ae661dc1da24e411d37e627fb677795 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c63a8fd2f0a72e5b169d6f170f2d2bc = $(`<div id="html_7c63a8fd2f0a72e5b169d6f170f2d2bc" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:49:09 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 5, dtype: object</div>`)[0];
+                popup_9ae661dc1da24e411d37e627fb677795.setContent(html_7c63a8fd2f0a72e5b169d6f170f2d2bc);
+            
+        
+
+        circle_marker_cf160f3d3aaf840153d958f7e469374a.bindPopup(popup_9ae661dc1da24e411d37e627fb677795)
+        ;
+
+        
+    
+    
+            var circle_marker_53711c60cbb55f9b174327b0d5458da9 = L.circleMarker(
+                [-23.58213, -46.712387],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_fca8bf64d35215c45e9cda796d5f5591 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22c0dc4e8f41d41f01d108fb74097b1d = $(`<div id="html_22c0dc4e8f41d41f01d108fb74097b1d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:50:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 6, dtype: object</div>`)[0];
+                popup_fca8bf64d35215c45e9cda796d5f5591.setContent(html_22c0dc4e8f41d41f01d108fb74097b1d);
+            
+        
+
+        circle_marker_53711c60cbb55f9b174327b0d5458da9.bindPopup(popup_fca8bf64d35215c45e9cda796d5f5591)
+        ;
+
+        
+    
+    
+            var circle_marker_30d9ce3db402907533e55262da768342 = L.circleMarker(
+                [-23.58213, -46.712387],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_e69d6a6ca757e23492b96040bd73214e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49e75fbbfbc4782ad15b21a6fe448bd4 = $(`<div id="html_49e75fbbfbc4782ad15b21a6fe448bd4" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:50:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 7, dtype: object</div>`)[0];
+                popup_e69d6a6ca757e23492b96040bd73214e.setContent(html_49e75fbbfbc4782ad15b21a6fe448bd4);
+            
+        
+
+        circle_marker_30d9ce3db402907533e55262da768342.bindPopup(popup_e69d6a6ca757e23492b96040bd73214e)
+        ;
+
+        
+    
+    
+            var marker_9773e992bd89d8b3e686d09560ccb259 = L.marker(
+                [-23.58221, -46.712265],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_bebeebeea88c4be84979e87bccc3f245 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34a73e7b8031ad2c3132dddd351dcc51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d7b2378c3a0875d8e74a7864bb73df00 = $(`<div id="html_d7b2378c3a0875d8e74a7864bb73df00" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 03:50:46<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> LIGUE-ME<br>                 </div>`)[0];
+                popup_34a73e7b8031ad2c3132dddd351dcc51.setContent(html_d7b2378c3a0875d8e74a7864bb73df00);
+            
+        
+
+        marker_9773e992bd89d8b3e686d09560ccb259.bindPopup(popup_34a73e7b8031ad2c3132dddd351dcc51)
+        ;
+
+        
+    
+    
+                marker_9773e992bd89d8b3e686d09560ccb259.setIcon(icon_bebeebeea88c4be84979e87bccc3f245);
+            
+    
+            var marker_5a4833c999aaa67f29500fddf052efb9 = L.marker(
+                [-23.58221, -46.712265],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_934f02b8d06f837727541c9b5e3b8dc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "cadetblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a507b06a6f41c5c50db09bbc90677de = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6d74df69134d87ff0aae378047d083d = $(`<div id="html_c6d74df69134d87ff0aae378047d083d" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 03:50:46<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> LIGUE-ME<br>                 </div>`)[0];
+                popup_9a507b06a6f41c5c50db09bbc90677de.setContent(html_c6d74df69134d87ff0aae378047d083d);
+            
+        
+
+        marker_5a4833c999aaa67f29500fddf052efb9.bindPopup(popup_9a507b06a6f41c5c50db09bbc90677de)
+        ;
+
+        
+    
+    
+                marker_5a4833c999aaa67f29500fddf052efb9.setIcon(icon_934f02b8d06f837727541c9b5e3b8dc6);
+            
+    
+            var circle_marker_b1657e1f0de086e2d066ff7e6a27beeb = L.circleMarker(
+                [-23.582107, -46.712283],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_464451bc94aab9a8e8c3571dcc687890 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b42d9820d20f278705777dea3b2e018c = $(`<div id="html_b42d9820d20f278705777dea3b2e018c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:51:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 10, dtype: object</div>`)[0];
+                popup_464451bc94aab9a8e8c3571dcc687890.setContent(html_b42d9820d20f278705777dea3b2e018c);
+            
+        
+
+        circle_marker_b1657e1f0de086e2d066ff7e6a27beeb.bindPopup(popup_464451bc94aab9a8e8c3571dcc687890)
+        ;
+
+        
+    
+    
+            var circle_marker_2b8698312ef6e4f47e7116405ed9351d = L.circleMarker(
+                [-23.582107, -46.712283],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_7ed62698d64e6e6f3ca93b4b46adc041 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1daa8285a8a6aee1c76f4a1c067040c8 = $(`<div id="html_1daa8285a8a6aee1c76f4a1c067040c8" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:51:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 11, dtype: object</div>`)[0];
+                popup_7ed62698d64e6e6f3ca93b4b46adc041.setContent(html_1daa8285a8a6aee1c76f4a1c067040c8);
+            
+        
+
+        circle_marker_2b8698312ef6e4f47e7116405ed9351d.bindPopup(popup_7ed62698d64e6e6f3ca93b4b46adc041)
+        ;
+
+        
+    
+    
+            var circle_marker_387cbe63a54f56d1602c88de3b8e04dd = L.circleMarker(
+                [-23.581863, -46.712108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_965dc9006c1f66883fe3c53d34ff9e2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84c8669d7a950b744667a2ae32fffcf5 = $(`<div id="html_84c8669d7a950b744667a2ae32fffcf5" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:52:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 12, dtype: object</div>`)[0];
+                popup_965dc9006c1f66883fe3c53d34ff9e2e.setContent(html_84c8669d7a950b744667a2ae32fffcf5);
+            
+        
+
+        circle_marker_387cbe63a54f56d1602c88de3b8e04dd.bindPopup(popup_965dc9006c1f66883fe3c53d34ff9e2e)
+        ;
+
+        
+    
+    
+            var circle_marker_a27dfd4f3be7b14b962c99fffd8de48a = L.circleMarker(
+                [-23.581863, -46.712108],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_53bc0e68edb2b40566533e6f05e6d5e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39421a3202372f839c4ce488ae9574b6 = $(`<div id="html_39421a3202372f839c4ce488ae9574b6" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:52:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 13, dtype: object</div>`)[0];
+                popup_53bc0e68edb2b40566533e6f05e6d5e2.setContent(html_39421a3202372f839c4ce488ae9574b6);
+            
+        
+
+        circle_marker_a27dfd4f3be7b14b962c99fffd8de48a.bindPopup(popup_53bc0e68edb2b40566533e6f05e6d5e2)
+        ;
+
+        
+    
+    
+            var circle_marker_ca374a171a6008590750772be5f91cae = L.circleMarker(
+                [-23.570475, -46.703132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_1c73b7b71ffd3477d3e302dfecf99187 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d433a8a54438c559221347d3d54c0d7f = $(`<div id="html_d433a8a54438c559221347d3d54c0d7f" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:53:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 14, dtype: object</div>`)[0];
+                popup_1c73b7b71ffd3477d3e302dfecf99187.setContent(html_d433a8a54438c559221347d3d54c0d7f);
+            
+        
+
+        circle_marker_ca374a171a6008590750772be5f91cae.bindPopup(popup_1c73b7b71ffd3477d3e302dfecf99187)
+        ;
+
+        
+    
+    
+            var circle_marker_379fe92d118e2d7a1ef5d1f8c14daac5 = L.circleMarker(
+                [-23.570475, -46.703132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_4a7357cfe0a5c089851b1dd8e7aadd20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9eaac3b4f8de0201af5ceee88c5973c = $(`<div id="html_c9eaac3b4f8de0201af5ceee88c5973c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:53:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 15, dtype: object</div>`)[0];
+                popup_4a7357cfe0a5c089851b1dd8e7aadd20.setContent(html_c9eaac3b4f8de0201af5ceee88c5973c);
+            
+        
+
+        circle_marker_379fe92d118e2d7a1ef5d1f8c14daac5.bindPopup(popup_4a7357cfe0a5c089851b1dd8e7aadd20)
+        ;
+
+        
+    
+    
+            var circle_marker_7acd1caed5eebf3bc98f4c421c2077f4 = L.circleMarker(
+                [-23.570632, -46.701103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_bfa881262eae1350f66b57351144aba8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4dd7775ff80efe63300cee76f13d54d = $(`<div id="html_b4dd7775ff80efe63300cee76f13d54d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:54:11 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 16, dtype: object</div>`)[0];
+                popup_bfa881262eae1350f66b57351144aba8.setContent(html_b4dd7775ff80efe63300cee76f13d54d);
+            
+        
+
+        circle_marker_7acd1caed5eebf3bc98f4c421c2077f4.bindPopup(popup_bfa881262eae1350f66b57351144aba8)
+        ;
+
+        
+    
+    
+            var circle_marker_68015a2dd775fea12541c768876548b8 = L.circleMarker(
+                [-23.570632, -46.701103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_b97079540772232f18c175ad30e1f7bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d73adbbea807b3a7d70dad811d26ba3 = $(`<div id="html_3d73adbbea807b3a7d70dad811d26ba3" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:54:11 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 17, dtype: object</div>`)[0];
+                popup_b97079540772232f18c175ad30e1f7bb.setContent(html_3d73adbbea807b3a7d70dad811d26ba3);
+            
+        
+
+        circle_marker_68015a2dd775fea12541c768876548b8.bindPopup(popup_b97079540772232f18c175ad30e1f7bb)
+        ;
+
+        
+    
+    
+            var circle_marker_7b63eb5bd2393a794b5df6d8f0de9cba = L.circleMarker(
+                [-23.564047, -46.703485],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_06926b2e76537d73d30258a2840e82e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2f5b33936a46ce16e0eef38822c94f7 = $(`<div id="html_c2f5b33936a46ce16e0eef38822c94f7" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:55:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 18, dtype: object</div>`)[0];
+                popup_06926b2e76537d73d30258a2840e82e8.setContent(html_c2f5b33936a46ce16e0eef38822c94f7);
+            
+        
+
+        circle_marker_7b63eb5bd2393a794b5df6d8f0de9cba.bindPopup(popup_06926b2e76537d73d30258a2840e82e8)
+        ;
+
+        
+    
+    
+            var circle_marker_f2975bf43836622b8bdab578b5017a87 = L.circleMarker(
+                [-23.564047, -46.703485],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_d416a79ddeb0b6da706697d0ab21116d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9afc8e4ef6fa4eeeec757af0b8c81bb7 = $(`<div id="html_9afc8e4ef6fa4eeeec757af0b8c81bb7" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:55:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 19, dtype: object</div>`)[0];
+                popup_d416a79ddeb0b6da706697d0ab21116d.setContent(html_9afc8e4ef6fa4eeeec757af0b8c81bb7);
+            
+        
+
+        circle_marker_f2975bf43836622b8bdab578b5017a87.bindPopup(popup_d416a79ddeb0b6da706697d0ab21116d)
+        ;
+
+        
+    
+    
+            var circle_marker_400b09e433fad7d60bb936b5c15d9cb1 = L.circleMarker(
+                [-23.558652, -46.708758],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_4cea8ad9d3d7c316924bb216438bed71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e497b5a9d599cf3d598b00b1073649d = $(`<div id="html_1e497b5a9d599cf3d598b00b1073649d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:56:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 20, dtype: object</div>`)[0];
+                popup_4cea8ad9d3d7c316924bb216438bed71.setContent(html_1e497b5a9d599cf3d598b00b1073649d);
+            
+        
+
+        circle_marker_400b09e433fad7d60bb936b5c15d9cb1.bindPopup(popup_4cea8ad9d3d7c316924bb216438bed71)
+        ;
+
+        
+    
+    
+            var circle_marker_cea67a9a5751017cc829faa001f767a0 = L.circleMarker(
+                [-23.558652, -46.708758],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_19a73cb487947b22cee7c97302ddcae3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fec1771a4b2228b85c91b44f69d0e34 = $(`<div id="html_0fec1771a4b2228b85c91b44f69d0e34" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:56:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 21, dtype: object</div>`)[0];
+                popup_19a73cb487947b22cee7c97302ddcae3.setContent(html_0fec1771a4b2228b85c91b44f69d0e34);
+            
+        
+
+        circle_marker_cea67a9a5751017cc829faa001f767a0.bindPopup(popup_19a73cb487947b22cee7c97302ddcae3)
+        ;
+
+        
+    
+    
+            var circle_marker_d60f47ebdd4c69e8fa2bd7dd9fb1ccd1 = L.circleMarker(
+                [-23.55476, -46.716547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_dae90d3e6044e13ea03905fd1618b6b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99e917ca1dfef6cc2ec3546f26db3c96 = $(`<div id="html_99e917ca1dfef6cc2ec3546f26db3c96" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:57:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 22, dtype: object</div>`)[0];
+                popup_dae90d3e6044e13ea03905fd1618b6b7.setContent(html_99e917ca1dfef6cc2ec3546f26db3c96);
+            
+        
+
+        circle_marker_d60f47ebdd4c69e8fa2bd7dd9fb1ccd1.bindPopup(popup_dae90d3e6044e13ea03905fd1618b6b7)
+        ;
+
+        
+    
+    
+            var circle_marker_ece499e558d0cce9f8af1db1c43e2dab = L.circleMarker(
+                [-23.55476, -46.716547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_a71f6e7a61f08e42f22725489f9da312 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5b1b166587b192b09d1748dd0f75163 = $(`<div id="html_f5b1b166587b192b09d1748dd0f75163" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:57:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 23, dtype: object</div>`)[0];
+                popup_a71f6e7a61f08e42f22725489f9da312.setContent(html_f5b1b166587b192b09d1748dd0f75163);
+            
+        
+
+        circle_marker_ece499e558d0cce9f8af1db1c43e2dab.bindPopup(popup_a71f6e7a61f08e42f22725489f9da312)
+        ;
+
+        
+    
+    
+            var circle_marker_90b33f1080525855430483833e4926a7 = L.circleMarker(
+                [-23.55059, -46.724808],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_1d4e55e0ae902f8659e489e6266e1890 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef757df5c2f7ad2fc6cf78c0afccdcea = $(`<div id="html_ef757df5c2f7ad2fc6cf78c0afccdcea" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:58:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 24, dtype: object</div>`)[0];
+                popup_1d4e55e0ae902f8659e489e6266e1890.setContent(html_ef757df5c2f7ad2fc6cf78c0afccdcea);
+            
+        
+
+        circle_marker_90b33f1080525855430483833e4926a7.bindPopup(popup_1d4e55e0ae902f8659e489e6266e1890)
+        ;
+
+        
+    
+    
+            var circle_marker_8e0302ecd8eea4dd1af3a2d445b8a532 = L.circleMarker(
+                [-23.55059, -46.724808],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_ce4397fdbe5ab42970c06478cb715290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30d3c5291548e1e195e388c2117ac9f2 = $(`<div id="html_30d3c5291548e1e195e388c2117ac9f2" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:58:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 25, dtype: object</div>`)[0];
+                popup_ce4397fdbe5ab42970c06478cb715290.setContent(html_30d3c5291548e1e195e388c2117ac9f2);
+            
+        
+
+        circle_marker_8e0302ecd8eea4dd1af3a2d445b8a532.bindPopup(popup_ce4397fdbe5ab42970c06478cb715290)
+        ;
+
+        
+    
+    
+            var circle_marker_2ab15fdb1c32c53154b0cf16585fe33c = L.circleMarker(
+                [-23.545332, -46.733202],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_d821a02391a83bbff65eb2ae92c5b9e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9af127795720847cb4c7a2c1a6bbe37a = $(`<div id="html_9af127795720847cb4c7a2c1a6bbe37a" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:59:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 26, dtype: object</div>`)[0];
+                popup_d821a02391a83bbff65eb2ae92c5b9e0.setContent(html_9af127795720847cb4c7a2c1a6bbe37a);
+            
+        
+
+        circle_marker_2ab15fdb1c32c53154b0cf16585fe33c.bindPopup(popup_d821a02391a83bbff65eb2ae92c5b9e0)
+        ;
+
+        
+    
+    
+            var circle_marker_5cfce637318dfa71c3aa82921ed0d1ec = L.circleMarker(
+                [-23.545332, -46.733202],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_2df1b8c6c1d63f25161f88086bdd305a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f0439087850352514ca3bcc70e0fa6a = $(`<div id="html_6f0439087850352514ca3bcc70e0fa6a" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 03:59:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 27, dtype: object</div>`)[0];
+                popup_2df1b8c6c1d63f25161f88086bdd305a.setContent(html_6f0439087850352514ca3bcc70e0fa6a);
+            
+        
+
+        circle_marker_5cfce637318dfa71c3aa82921ed0d1ec.bindPopup(popup_2df1b8c6c1d63f25161f88086bdd305a)
+        ;
+
+        
+    
+    
+            var circle_marker_6eee575f1dbd5adbebd2e36ee0f4e03f = L.circleMarker(
+                [-23.540593, -46.73656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_a04368ac11a67be96b9dd1adc0702626 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc6e6fce53fb9700d06764e0d122170f = $(`<div id="html_dc6e6fce53fb9700d06764e0d122170f" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:00:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 28, dtype: object</div>`)[0];
+                popup_a04368ac11a67be96b9dd1adc0702626.setContent(html_dc6e6fce53fb9700d06764e0d122170f);
+            
+        
+
+        circle_marker_6eee575f1dbd5adbebd2e36ee0f4e03f.bindPopup(popup_a04368ac11a67be96b9dd1adc0702626)
+        ;
+
+        
+    
+    
+            var circle_marker_2af21a26197949f094cddce29b82575b = L.circleMarker(
+                [-23.540593, -46.73656],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_ee789875d600902af90fc8679a6a438c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7b16e361ff47bc6536185afd1202c8c = $(`<div id="html_a7b16e361ff47bc6536185afd1202c8c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:00:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 29, dtype: object</div>`)[0];
+                popup_ee789875d600902af90fc8679a6a438c.setContent(html_a7b16e361ff47bc6536185afd1202c8c);
+            
+        
+
+        circle_marker_2af21a26197949f094cddce29b82575b.bindPopup(popup_ee789875d600902af90fc8679a6a438c)
+        ;
+
+        
+    
+    
+            var circle_marker_c9b3076e794b9ea34050027e5b5b1632 = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_4ae302e9ba2664c3c03185610829910b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b5997846ac4fe24bd647c9d7d88491e = $(`<div id="html_4b5997846ac4fe24bd647c9d7d88491e" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:01:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 30, dtype: object</div>`)[0];
+                popup_4ae302e9ba2664c3c03185610829910b.setContent(html_4b5997846ac4fe24bd647c9d7d88491e);
+            
+        
+
+        circle_marker_c9b3076e794b9ea34050027e5b5b1632.bindPopup(popup_4ae302e9ba2664c3c03185610829910b)
+        ;
+
+        
+    
+    
+            var circle_marker_9fb1db5dcab0760d0220d4d80647c4ab = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_74f6cfaafc444e7228230d62340c4a0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_13f0ff6f23e228f270b85fbce0ce8ef4 = $(`<div id="html_13f0ff6f23e228f270b85fbce0ce8ef4" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:01:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 31, dtype: object</div>`)[0];
+                popup_74f6cfaafc444e7228230d62340c4a0d.setContent(html_13f0ff6f23e228f270b85fbce0ce8ef4);
+            
+        
+
+        circle_marker_9fb1db5dcab0760d0220d4d80647c4ab.bindPopup(popup_74f6cfaafc444e7228230d62340c4a0d)
+        ;
+
+        
+    
+    
+            var circle_marker_fd5a50e12a75d5fb62e7d87320644a64 = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_469e3fba5e9e8e69b35eeead87966c6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24df295f90eddf46da3d942f2f9d80cc = $(`<div id="html_24df295f90eddf46da3d942f2f9d80cc" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:02:09 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 32, dtype: object</div>`)[0];
+                popup_469e3fba5e9e8e69b35eeead87966c6e.setContent(html_24df295f90eddf46da3d942f2f9d80cc);
+            
+        
+
+        circle_marker_fd5a50e12a75d5fb62e7d87320644a64.bindPopup(popup_469e3fba5e9e8e69b35eeead87966c6e)
+        ;
+
+        
+    
+    
+            var circle_marker_1a02576055c934ae2cd4368f6ca0cf12 = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_d285eb69b5a923e6bc8915badb4b4d2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72c73b913e62fb28b77357142d08b65a = $(`<div id="html_72c73b913e62fb28b77357142d08b65a" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:02:09 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 33, dtype: object</div>`)[0];
+                popup_d285eb69b5a923e6bc8915badb4b4d2a.setContent(html_72c73b913e62fb28b77357142d08b65a);
+            
+        
+
+        circle_marker_1a02576055c934ae2cd4368f6ca0cf12.bindPopup(popup_d285eb69b5a923e6bc8915badb4b4d2a)
+        ;
+
+        
+    
+    
+            var circle_marker_6703838ce34adc3ce6464c2d76a777d3 = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_564693ba880d7f9e8c822d601b2093f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_527d97e0ce8d1d84a7a4571fb809769d = $(`<div id="html_527d97e0ce8d1d84a7a4571fb809769d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:03:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 34, dtype: object</div>`)[0];
+                popup_564693ba880d7f9e8c822d601b2093f3.setContent(html_527d97e0ce8d1d84a7a4571fb809769d);
+            
+        
+
+        circle_marker_6703838ce34adc3ce6464c2d76a777d3.bindPopup(popup_564693ba880d7f9e8c822d601b2093f3)
+        ;
+
+        
+    
+    
+            var circle_marker_d7cd6a68f4177bfdace1442220d10b7c = L.circleMarker(
+                [-23.5389, -46.734338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_d47ce61110616725a703179a26f718b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eafcf2aa2df193e82eb7b82751edc6a = $(`<div id="html_8eafcf2aa2df193e82eb7b82751edc6a" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:03:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 35, dtype: object</div>`)[0];
+                popup_d47ce61110616725a703179a26f718b6.setContent(html_8eafcf2aa2df193e82eb7b82751edc6a);
+            
+        
+
+        circle_marker_d7cd6a68f4177bfdace1442220d10b7c.bindPopup(popup_d47ce61110616725a703179a26f718b6)
+        ;
+
+        
+    
+    
+            var marker_ffbbfd71595fb51dd51eb3d83de7f1de = L.marker(
+                [-23.539655, -46.733487],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_33877536f4a225845e8b7bfd2e0c1550 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e830eece607bbbc1b13a471dea63e0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dd99ae8a77e3fab742de2f9f9f4543c2 = $(`<div id="html_dd99ae8a77e3fab742de2f9f9f4543c2" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:03:38<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU INI<br>                 </div>`)[0];
+                popup_0e830eece607bbbc1b13a471dea63e0b.setContent(html_dd99ae8a77e3fab742de2f9f9f4543c2);
+            
+        
+
+        marker_ffbbfd71595fb51dd51eb3d83de7f1de.bindPopup(popup_0e830eece607bbbc1b13a471dea63e0b)
+        ;
+
+        
+    
+    
+                marker_ffbbfd71595fb51dd51eb3d83de7f1de.setIcon(icon_33877536f4a225845e8b7bfd2e0c1550);
+            
+    
+            var marker_de772cc998021fd97558e3e0edc95b6c = L.marker(
+                [-23.539655, -46.733487],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_6b2587c6de8ea4f1434737f887a84ee2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7055acac0e2de535977496a77ffd03c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_85933ad71c9dec55c9a68dcc69e82cd0 = $(`<div id="html_85933ad71c9dec55c9a68dcc69e82cd0" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:03:38<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU INI<br>                 </div>`)[0];
+                popup_a7055acac0e2de535977496a77ffd03c.setContent(html_85933ad71c9dec55c9a68dcc69e82cd0);
+            
+        
+
+        marker_de772cc998021fd97558e3e0edc95b6c.bindPopup(popup_a7055acac0e2de535977496a77ffd03c)
+        ;
+
+        
+    
+    
+                marker_de772cc998021fd97558e3e0edc95b6c.setIcon(icon_6b2587c6de8ea4f1434737f887a84ee2);
+            
+    
+            var circle_marker_0a2f664cf9ea764fa5b7e7b37ebb4c6d = L.circleMarker(
+                [-23.54101, -46.732125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_362e37f5be4c21e767f48f6ad75d095d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d45aca18199de6d06ccef77643f3a925 = $(`<div id="html_d45aca18199de6d06ccef77643f3a925" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:04:12 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 38, dtype: object</div>`)[0];
+                popup_362e37f5be4c21e767f48f6ad75d095d.setContent(html_d45aca18199de6d06ccef77643f3a925);
+            
+        
+
+        circle_marker_0a2f664cf9ea764fa5b7e7b37ebb4c6d.bindPopup(popup_362e37f5be4c21e767f48f6ad75d095d)
+        ;
+
+        
+    
+    
+            var circle_marker_ad5379036edafc69547ae2ed1cbee3e9 = L.circleMarker(
+                [-23.54101, -46.732125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_8c06beb65fc998847c8a718cff9f77f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7b1223f5f86b16bd7560012bee8b170 = $(`<div id="html_a7b1223f5f86b16bd7560012bee8b170" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:04:12 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 39, dtype: object</div>`)[0];
+                popup_8c06beb65fc998847c8a718cff9f77f6.setContent(html_a7b1223f5f86b16bd7560012bee8b170);
+            
+        
+
+        circle_marker_ad5379036edafc69547ae2ed1cbee3e9.bindPopup(popup_8c06beb65fc998847c8a718cff9f77f6)
+        ;
+
+        
+    
+    
+            var circle_marker_1cc14e5bc4fd515f8c4c0c6cd81c496d = L.circleMarker(
+                [-23.541597, -46.73176],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_ca6dce53246d9a69f95322494cf6f6e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb04e42eeb02c743a2e3b37e40552d98 = $(`<div id="html_bb04e42eeb02c743a2e3b37e40552d98" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:05:12 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 40, dtype: object</div>`)[0];
+                popup_ca6dce53246d9a69f95322494cf6f6e1.setContent(html_bb04e42eeb02c743a2e3b37e40552d98);
+            
+        
+
+        circle_marker_1cc14e5bc4fd515f8c4c0c6cd81c496d.bindPopup(popup_ca6dce53246d9a69f95322494cf6f6e1)
+        ;
+
+        
+    
+    
+            var circle_marker_ea7ab284665f9f0e324243c04380e321 = L.circleMarker(
+                [-23.541597, -46.73176],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_c2ae744f122ccce7fe6a5823a96107ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e99a6164399eb9c645eb6a0bb777721e = $(`<div id="html_e99a6164399eb9c645eb6a0bb777721e" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:05:12 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 41, dtype: object</div>`)[0];
+                popup_c2ae744f122ccce7fe6a5823a96107ab.setContent(html_e99a6164399eb9c645eb6a0bb777721e);
+            
+        
+
+        circle_marker_ea7ab284665f9f0e324243c04380e321.bindPopup(popup_c2ae744f122ccce7fe6a5823a96107ab)
+        ;
+
+        
+    
+    
+            var circle_marker_5c6892d9f69a7cd9082e923af160ee04 = L.circleMarker(
+                [-23.541873, -46.731147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_7db7388c58dfd065279544341df3e221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82f96b56f6763cc3ca26e1cf80babca6 = $(`<div id="html_82f96b56f6763cc3ca26e1cf80babca6" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:06:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 42, dtype: object</div>`)[0];
+                popup_7db7388c58dfd065279544341df3e221.setContent(html_82f96b56f6763cc3ca26e1cf80babca6);
+            
+        
+
+        circle_marker_5c6892d9f69a7cd9082e923af160ee04.bindPopup(popup_7db7388c58dfd065279544341df3e221)
+        ;
+
+        
+    
+    
+            var circle_marker_ef1afb50669b24fbe90335697fa7f886 = L.circleMarker(
+                [-23.541873, -46.731147],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_0ed13ddbe14e09f0436cff3a12ede3ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2319f93ecb67bb07b797f9a2d350e46c = $(`<div id="html_2319f93ecb67bb07b797f9a2d350e46c" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:06:07 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 43, dtype: object</div>`)[0];
+                popup_0ed13ddbe14e09f0436cff3a12ede3ed.setContent(html_2319f93ecb67bb07b797f9a2d350e46c);
+            
+        
+
+        circle_marker_ef1afb50669b24fbe90335697fa7f886.bindPopup(popup_0ed13ddbe14e09f0436cff3a12ede3ed)
+        ;
+
+        
+    
+    
+            var circle_marker_9d633b22ea86c94a625735a07bf15db4 = L.circleMarker(
+                [-23.541873, -46.731145],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_aada87be64e05c8f3a597d46ac0afc47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1fbd9390531f722d0afcd938ebfd3e9 = $(`<div id="html_f1fbd9390531f722d0afcd938ebfd3e9" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:07:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 44, dtype: object</div>`)[0];
+                popup_aada87be64e05c8f3a597d46ac0afc47.setContent(html_f1fbd9390531f722d0afcd938ebfd3e9);
+            
+        
+
+        circle_marker_9d633b22ea86c94a625735a07bf15db4.bindPopup(popup_aada87be64e05c8f3a597d46ac0afc47)
+        ;
+
+        
+    
+    
+            var circle_marker_ed6dfd0aad541794811551170945fd92 = L.circleMarker(
+                [-23.541873, -46.731145],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_c26d6849e57068c64aa0253943a08b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9850a2e32b0c25d52ac9c8c0c8225cc = $(`<div id="html_f9850a2e32b0c25d52ac9c8c0c8225cc" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:07:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 45, dtype: object</div>`)[0];
+                popup_c26d6849e57068c64aa0253943a08b1d.setContent(html_f9850a2e32b0c25d52ac9c8c0c8225cc);
+            
+        
+
+        circle_marker_ed6dfd0aad541794811551170945fd92.bindPopup(popup_c26d6849e57068c64aa0253943a08b1d)
+        ;
+
+        
+    
+    
+            var circle_marker_e433a10265d54dd60458ff8c73f1b2bc = L.circleMarker(
+                [-23.541873, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_d9fe960d24acf22d46bcfdcdc0dd893c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16761afa33247ecdbc8d8ffe5de81b35 = $(`<div id="html_16761afa33247ecdbc8d8ffe5de81b35" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:08:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 46, dtype: object</div>`)[0];
+                popup_d9fe960d24acf22d46bcfdcdc0dd893c.setContent(html_16761afa33247ecdbc8d8ffe5de81b35);
+            
+        
+
+        circle_marker_e433a10265d54dd60458ff8c73f1b2bc.bindPopup(popup_d9fe960d24acf22d46bcfdcdc0dd893c)
+        ;
+
+        
+    
+    
+            var circle_marker_cc1531e6b48bfe6455a89ec571d0d87a = L.circleMarker(
+                [-23.541873, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_5ea28f049dcedfb1c135b2f856370413 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cee491ce1125acb1ac114976dc8c942d = $(`<div id="html_cee491ce1125acb1ac114976dc8c942d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:08:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 47, dtype: object</div>`)[0];
+                popup_5ea28f049dcedfb1c135b2f856370413.setContent(html_cee491ce1125acb1ac114976dc8c942d);
+            
+        
+
+        circle_marker_cc1531e6b48bfe6455a89ec571d0d87a.bindPopup(popup_5ea28f049dcedfb1c135b2f856370413)
+        ;
+
+        
+    
+    
+            var circle_marker_1505fd61ba46a0beda7adb0c5390cb5a = L.circleMarker(
+                [-23.54187, -46.73113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_a6e9b871e0b562579224ade40930135b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fa8b36e0dd7a4fa6980039daed72b86 = $(`<div id="html_5fa8b36e0dd7a4fa6980039daed72b86" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:09:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 48, dtype: object</div>`)[0];
+                popup_a6e9b871e0b562579224ade40930135b.setContent(html_5fa8b36e0dd7a4fa6980039daed72b86);
+            
+        
+
+        circle_marker_1505fd61ba46a0beda7adb0c5390cb5a.bindPopup(popup_a6e9b871e0b562579224ade40930135b)
+        ;
+
+        
+    
+    
+            var circle_marker_b5f0b687886ebaaaaf91f16f01b7738f = L.circleMarker(
+                [-23.54187, -46.73113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_3b18a544c31cf00b70bd9b1cf587f94a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71f859d39eb7c102f46d08f170cf7bbc = $(`<div id="html_71f859d39eb7c102f46d08f170cf7bbc" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:09:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 49, dtype: object</div>`)[0];
+                popup_3b18a544c31cf00b70bd9b1cf587f94a.setContent(html_71f859d39eb7c102f46d08f170cf7bbc);
+            
+        
+
+        circle_marker_b5f0b687886ebaaaaf91f16f01b7738f.bindPopup(popup_3b18a544c31cf00b70bd9b1cf587f94a)
+        ;
+
+        
+    
+    
+            var circle_marker_86a40b2f803ae584e3de1467fcef91ba = L.circleMarker(
+                [-23.541862, -46.73113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_327861e3985c5bc2923d6966212ef3ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc389f5e653c24df738b2e7c03aa35c3 = $(`<div id="html_cc389f5e653c24df738b2e7c03aa35c3" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:10:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 50, dtype: object</div>`)[0];
+                popup_327861e3985c5bc2923d6966212ef3ca.setContent(html_cc389f5e653c24df738b2e7c03aa35c3);
+            
+        
+
+        circle_marker_86a40b2f803ae584e3de1467fcef91ba.bindPopup(popup_327861e3985c5bc2923d6966212ef3ca)
+        ;
+
+        
+    
+    
+            var circle_marker_772a6bc8396518e15068e673736aed7a = L.circleMarker(
+                [-23.541862, -46.73113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_533f8dad724e624bd91980ea79216cf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36c8f7e17e849ef202dc4be5c65802c9 = $(`<div id="html_36c8f7e17e849ef202dc4be5c65802c9" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:10:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 51, dtype: object</div>`)[0];
+                popup_533f8dad724e624bd91980ea79216cf5.setContent(html_36c8f7e17e849ef202dc4be5c65802c9);
+            
+        
+
+        circle_marker_772a6bc8396518e15068e673736aed7a.bindPopup(popup_533f8dad724e624bd91980ea79216cf5)
+        ;
+
+        
+    
+    
+            var circle_marker_c42ccbf2f0f8263e3c5dc9f5a166422d = L.circleMarker(
+                [-23.541867, -46.731133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_235ca49c19eb867a1030a255223acbd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08b71754eba8ca328e610836c9f5784b = $(`<div id="html_08b71754eba8ca328e610836c9f5784b" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:11:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 52, dtype: object</div>`)[0];
+                popup_235ca49c19eb867a1030a255223acbd7.setContent(html_08b71754eba8ca328e610836c9f5784b);
+            
+        
+
+        circle_marker_c42ccbf2f0f8263e3c5dc9f5a166422d.bindPopup(popup_235ca49c19eb867a1030a255223acbd7)
+        ;
+
+        
+    
+    
+            var circle_marker_49f27cb449c111286f7f0d2afb4373fb = L.circleMarker(
+                [-23.541867, -46.731133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_3eedf3e526a076958bfb323cd4bf6a24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c030918fb2fc0fa28b41525b424b2082 = $(`<div id="html_c030918fb2fc0fa28b41525b424b2082" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:11:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 53, dtype: object</div>`)[0];
+                popup_3eedf3e526a076958bfb323cd4bf6a24.setContent(html_c030918fb2fc0fa28b41525b424b2082);
+            
+        
+
+        circle_marker_49f27cb449c111286f7f0d2afb4373fb.bindPopup(popup_3eedf3e526a076958bfb323cd4bf6a24)
+        ;
+
+        
+    
+    
+            var circle_marker_bd11ae55fa563f9a352b39a4ad378175 = L.circleMarker(
+                [-23.541867, -46.731133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_01a656df2ad112fdf5e69d4d371b98e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4c3a860d8f32bfe426c9ed815226a05 = $(`<div id="html_f4c3a860d8f32bfe426c9ed815226a05" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:12:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 54, dtype: object</div>`)[0];
+                popup_01a656df2ad112fdf5e69d4d371b98e3.setContent(html_f4c3a860d8f32bfe426c9ed815226a05);
+            
+        
+
+        circle_marker_bd11ae55fa563f9a352b39a4ad378175.bindPopup(popup_01a656df2ad112fdf5e69d4d371b98e3)
+        ;
+
+        
+    
+    
+            var circle_marker_d3e9638fb701f161af7898721d2d8e75 = L.circleMarker(
+                [-23.541867, -46.731133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_9bed8b2d10a39dc70d0126d0c77bf367 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faac3ea2b7ff6a306708fbbaeb39f606 = $(`<div id="html_faac3ea2b7ff6a306708fbbaeb39f606" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:12:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 55, dtype: object</div>`)[0];
+                popup_9bed8b2d10a39dc70d0126d0c77bf367.setContent(html_faac3ea2b7ff6a306708fbbaeb39f606);
+            
+        
+
+        circle_marker_d3e9638fb701f161af7898721d2d8e75.bindPopup(popup_9bed8b2d10a39dc70d0126d0c77bf367)
+        ;
+
+        
+    
+    
+            var circle_marker_66a727311917c3d1acf0bcc764ead5d8 = L.circleMarker(
+                [-23.541873, -46.731137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_b4db8f5ae3d0148c7b84f6f239d570de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28627e4bbe375a34160d3bc79144d225 = $(`<div id="html_28627e4bbe375a34160d3bc79144d225" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:13:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 56, dtype: object</div>`)[0];
+                popup_b4db8f5ae3d0148c7b84f6f239d570de.setContent(html_28627e4bbe375a34160d3bc79144d225);
+            
+        
+
+        circle_marker_66a727311917c3d1acf0bcc764ead5d8.bindPopup(popup_b4db8f5ae3d0148c7b84f6f239d570de)
+        ;
+
+        
+    
+    
+            var circle_marker_c2be6ab9bcce05dfb3824445b576f215 = L.circleMarker(
+                [-23.541873, -46.731137],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_f29522298ee1241be389235565b6dd03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d267b7f182e390bf9d9862aea4af2783 = $(`<div id="html_d267b7f182e390bf9d9862aea4af2783" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:13:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 57, dtype: object</div>`)[0];
+                popup_f29522298ee1241be389235565b6dd03.setContent(html_d267b7f182e390bf9d9862aea4af2783);
+            
+        
+
+        circle_marker_c2be6ab9bcce05dfb3824445b576f215.bindPopup(popup_f29522298ee1241be389235565b6dd03)
+        ;
+
+        
+    
+    
+            var circle_marker_24c716dae384b397d32aa607c2683e0f = L.circleMarker(
+                [-23.541872, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_2ecd8df104231273496ca63d76af22e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc1afe5b42ad894d73d790b31922fa4 = $(`<div id="html_bfc1afe5b42ad894d73d790b31922fa4" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:14:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 58, dtype: object</div>`)[0];
+                popup_2ecd8df104231273496ca63d76af22e6.setContent(html_bfc1afe5b42ad894d73d790b31922fa4);
+            
+        
+
+        circle_marker_24c716dae384b397d32aa607c2683e0f.bindPopup(popup_2ecd8df104231273496ca63d76af22e6)
+        ;
+
+        
+    
+    
+            var circle_marker_3ee704288af8bd6068b6ea4b7b27d1a7 = L.circleMarker(
+                [-23.541872, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_b073c5010b3b3c53618dfe425b47ac88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_399bb252635e7b47f0f401e27c23f9b8 = $(`<div id="html_399bb252635e7b47f0f401e27c23f9b8" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:14:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 59, dtype: object</div>`)[0];
+                popup_b073c5010b3b3c53618dfe425b47ac88.setContent(html_399bb252635e7b47f0f401e27c23f9b8);
+            
+        
+
+        circle_marker_3ee704288af8bd6068b6ea4b7b27d1a7.bindPopup(popup_b073c5010b3b3c53618dfe425b47ac88)
+        ;
+
+        
+    
+    
+            var circle_marker_ae14c7500c7d8b6727e8ba9dcfc3272e = L.circleMarker(
+                [-23.54187, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_dfe6392270a8907f50f940faab0f4a31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_caaa97163ec76c53fd39bcfdf1effdc1 = $(`<div id="html_caaa97163ec76c53fd39bcfdf1effdc1" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:15:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 60, dtype: object</div>`)[0];
+                popup_dfe6392270a8907f50f940faab0f4a31.setContent(html_caaa97163ec76c53fd39bcfdf1effdc1);
+            
+        
+
+        circle_marker_ae14c7500c7d8b6727e8ba9dcfc3272e.bindPopup(popup_dfe6392270a8907f50f940faab0f4a31)
+        ;
+
+        
+    
+    
+            var circle_marker_612e60dd62823c4829bcc9e1e6fd25bf = L.circleMarker(
+                [-23.54187, -46.731138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_c8e4846f91d1f5e6b35ef018c2af732c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eead730d23022f6c76106230f6bdd07f = $(`<div id="html_eead730d23022f6c76106230f6bdd07f" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:15:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 61, dtype: object</div>`)[0];
+                popup_c8e4846f91d1f5e6b35ef018c2af732c.setContent(html_eead730d23022f6c76106230f6bdd07f);
+            
+        
+
+        circle_marker_612e60dd62823c4829bcc9e1e6fd25bf.bindPopup(popup_c8e4846f91d1f5e6b35ef018c2af732c)
+        ;
+
+        
+    
+    
+            var circle_marker_4fa3d0e115ed595aa1975d73c2c397eb = L.circleMarker(
+                [-23.54186, -46.731122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_681415b7e052872ee0252b92660e8af3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6df22e005082613509329bd82263d19e = $(`<div id="html_6df22e005082613509329bd82263d19e" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:16:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 62, dtype: object</div>`)[0];
+                popup_681415b7e052872ee0252b92660e8af3.setContent(html_6df22e005082613509329bd82263d19e);
+            
+        
+
+        circle_marker_4fa3d0e115ed595aa1975d73c2c397eb.bindPopup(popup_681415b7e052872ee0252b92660e8af3)
+        ;
+
+        
+    
+    
+            var circle_marker_42894100ff2c7a6ec1b3dd1a0fa456d1 = L.circleMarker(
+                [-23.54186, -46.731122],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_0fe714bc400a118842261bac5ec0cdcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86d1ba751a4d39820745503b320e0a77 = $(`<div id="html_86d1ba751a4d39820745503b320e0a77" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:16:05 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 63, dtype: object</div>`)[0];
+                popup_0fe714bc400a118842261bac5ec0cdcb.setContent(html_86d1ba751a4d39820745503b320e0a77);
+            
+        
+
+        circle_marker_42894100ff2c7a6ec1b3dd1a0fa456d1.bindPopup(popup_0fe714bc400a118842261bac5ec0cdcb)
+        ;
+
+        
+    
+    
+            var circle_marker_c92dae1585820a45ac52f2cbffc826fb = L.circleMarker(
+                [-23.54187, -46.731093],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_71ae266d252ac406393c9234f6e3c145 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3e4da13a937ce41c8fd8fb9e482137d = $(`<div id="html_e3e4da13a937ce41c8fd8fb9e482137d" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:17:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 64, dtype: object</div>`)[0];
+                popup_71ae266d252ac406393c9234f6e3c145.setContent(html_e3e4da13a937ce41c8fd8fb9e482137d);
+            
+        
+
+        circle_marker_c92dae1585820a45ac52f2cbffc826fb.bindPopup(popup_71ae266d252ac406393c9234f6e3c145)
+        ;
+
+        
+    
+    
+            var circle_marker_22ae6e0a0508894d09ffef537136b02c = L.circleMarker(
+                [-23.54187, -46.731093],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+        var popup_b0cbd148110b82bf0e14aab42381b151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22a5cf74a1619c4157752aa116dbb4d8 = $(`<div id="html_22a5cf74a1619c4157752aa116dbb4d8" style="width: 100.0%; height: 100.0%;">dat_historico    2025-11-27 04:17:06 sgl_veiculo                     MM13 NOM_BOTAO                       NULO Name: 65, dtype: object</div>`)[0];
+                popup_b0cbd148110b82bf0e14aab42381b151.setContent(html_22a5cf74a1619c4157752aa116dbb4d8);
+            
+        
+
+        circle_marker_22ae6e0a0508894d09ffef537136b02c.bindPopup(popup_b0cbd148110b82bf0e14aab42381b151)
+        ;
+
+        
+    
+    
+            var marker_28eca6823df2bd77f6a38449e6b7d03b = L.marker(
+                [-23.54187, -46.731083],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_0e88c796584755dd7120a130131e4eba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd786130664ecccbc90992d48ed15bbf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_932c281ef7ae3f299100af86e4ca99b2 = $(`<div id="html_932c281ef7ae3f299100af86e4ca99b2" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:17:19<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU FIM<br>                 </div>`)[0];
+                popup_dd786130664ecccbc90992d48ed15bbf.setContent(html_932c281ef7ae3f299100af86e4ca99b2);
+            
+        
+
+        marker_28eca6823df2bd77f6a38449e6b7d03b.bindPopup(popup_dd786130664ecccbc90992d48ed15bbf)
+        ;
+
+        
+    
+    
+                marker_28eca6823df2bd77f6a38449e6b7d03b.setIcon(icon_0e88c796584755dd7120a130131e4eba);
+            
+    
+            var marker_b06bb328e4a35dda27547563a6782501 = L.marker(
+                [-23.54187, -46.731083],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_2aa6f29137d198dc776eae38c4c516f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83594e182216f6b8b15da287856e6310 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_717eb519df6eeb9502e8e38f2ec5ae92 = $(`<div id="html_717eb519df6eeb9502e8e38f2ec5ae92" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:17:19<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRU FIM<br>                 </div>`)[0];
+                popup_83594e182216f6b8b15da287856e6310.setContent(html_717eb519df6eeb9502e8e38f2ec5ae92);
+            
+        
+
+        marker_b06bb328e4a35dda27547563a6782501.bindPopup(popup_83594e182216f6b8b15da287856e6310)
+        ;
+
+        
+    
+    
+                marker_b06bb328e4a35dda27547563a6782501.setIcon(icon_2aa6f29137d198dc776eae38c4c516f0);
+            
+    
+            var marker_b25792bb94fab3be097975cec1024109 = L.marker(
+                [-23.54187, -46.731083],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_af1224def5b75a64e87fe219433b635a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_583a10c3e54c5cd3634f195aa7d554c0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e9ef56c3d0b5ad0b0fe4e15c28e85c5e = $(`<div id="html_e9ef56c3d0b5ad0b0fe4e15c28e85c5e" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:17:20<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRV<br>                 </div>`)[0];
+                popup_583a10c3e54c5cd3634f195aa7d554c0.setContent(html_e9ef56c3d0b5ad0b0fe4e15c28e85c5e);
+            
+        
+
+        marker_b25792bb94fab3be097975cec1024109.bindPopup(popup_583a10c3e54c5cd3634f195aa7d554c0)
+        ;
+
+        
+    
+    
+                marker_b25792bb94fab3be097975cec1024109.setIcon(icon_af1224def5b75a64e87fe219433b635a);
+            
+    
+            var marker_38f0031a7c5e73fb8a71714e9a17e63e = L.marker(
+                [-23.54187, -46.731083],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_18e4f820b33215aa9491b2e5a3d8916b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4332315eac237b28f755ac7854f27222 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e4338c1125d01565c4a006b74777dcd = $(`<div id="html_6e4338c1125d01565c4a006b74777dcd" style="width: 100.0%; height: 100.0%;">         <b>Data historico gps:</b> 2025-11-27 04:17:20<br>         <b>Sigla da viatura:</b> MM13<br>         <b>Nome botão:</b> QRV<br>                 </div>`)[0];
+                popup_4332315eac237b28f755ac7854f27222.setContent(html_6e4338c1125d01565c4a006b74777dcd);
+            
+        
+
+        marker_38f0031a7c5e73fb8a71714e9a17e63e.bindPopup(popup_4332315eac237b28f755ac7854f27222)
+        ;
+
+        
+    
+    
+                marker_38f0031a7c5e73fb8a71714e9a17e63e.setIcon(icon_18e4f820b33215aa9491b2e5a3d8916b);
+            
+    
+            var poly_line_66e59b9593872e3536e83af4a5f716dd = L.polyline(
+                [[-23.582185, -46.712515], [-23.582185, -46.712515]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_a8087cab739ee418e36afda70475a9dc = L.polyline(
+                [[-23.582185, -46.712515], [-23.58214, -46.712447]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_e4c957173077033584143a261b15e22b = L.polyline(
+                [[-23.58214, -46.712447], [-23.58214, -46.712447]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_f0d65a44e32c419b171245c818e3e657 = L.polyline(
+                [[-23.58214, -46.712447], [-23.58208, -46.712392]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6b1f0fa31b55bab1b80428d257fd2c9d = L.polyline(
+                [[-23.58208, -46.712392], [-23.58208, -46.712392]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_4a373f635029f96ef22b31159c960433 = L.polyline(
+                [[-23.58208, -46.712392], [-23.58213, -46.712387]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_33f03c1bd3d4d69e4657c87e1ee48491 = L.polyline(
+                [[-23.58213, -46.712387], [-23.58213, -46.712387]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_28e106fa735b4e3cece45afe8e3dc4e4 = L.polyline(
+                [[-23.58213, -46.712387], [-23.58221, -46.712265]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_a90d0655f512302a45b05ba2f25480dd = L.polyline(
+                [[-23.58221, -46.712265], [-23.58221, -46.712265]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_40cfe93cafe06276c2ecf59c139055a9 = L.polyline(
+                [[-23.58221, -46.712265], [-23.582107, -46.712283]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_1f6d9d4f0167b6bbe09f1d347ba94001 = L.polyline(
+                [[-23.582107, -46.712283], [-23.582107, -46.712283]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_cadfc5c2787512ba4957d78af948059e = L.polyline(
+                [[-23.582107, -46.712283], [-23.581863, -46.712108]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_7aead981898ea7c8e440a3d8a114e751 = L.polyline(
+                [[-23.581863, -46.712108], [-23.581863, -46.712108]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6907bd92e06aa9a804d274b899f7c8ef = L.polyline(
+                [[-23.581863, -46.712108], [-23.570475, -46.703132]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_373b6b2fb421990f3e6abd15c2ed1640 = L.polyline(
+                [[-23.570475, -46.703132], [-23.570475, -46.703132]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_9b7779489a287bc4f9f7a6a9585abe74 = L.polyline(
+                [[-23.570475, -46.703132], [-23.570632, -46.701103]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_ca949f4b4e3afa6b06346f4cbe712e35 = L.polyline(
+                [[-23.570632, -46.701103], [-23.570632, -46.701103]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_a248e7547674176e22dad1e036595c78 = L.polyline(
+                [[-23.570632, -46.701103], [-23.564047, -46.703485]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_50272250ebff32b5e627ea0dab84ec67 = L.polyline(
+                [[-23.564047, -46.703485], [-23.564047, -46.703485]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_06cb31637a368841c4c64966de505fdc = L.polyline(
+                [[-23.564047, -46.703485], [-23.558652, -46.708758]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_dc84d2f5350c7d76f05fd5a781506402 = L.polyline(
+                [[-23.558652, -46.708758], [-23.558652, -46.708758]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_ef9d712c7f9b4bc1b91c0a2ea5a1be57 = L.polyline(
+                [[-23.558652, -46.708758], [-23.55476, -46.716547]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_4d18266b949c2bc2bd26a7aeeb7d6c26 = L.polyline(
+                [[-23.55476, -46.716547], [-23.55476, -46.716547]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_7b21bd37eeb86aaa75abf6162a210203 = L.polyline(
+                [[-23.55476, -46.716547], [-23.55059, -46.724808]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_664c71bddae57abba07a4de644c3fb48 = L.polyline(
+                [[-23.55059, -46.724808], [-23.55059, -46.724808]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_11522cb4143c07898dd2a09dea6de072 = L.polyline(
+                [[-23.55059, -46.724808], [-23.545332, -46.733202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_90b659a08b65584335151bfac9089793 = L.polyline(
+                [[-23.545332, -46.733202], [-23.545332, -46.733202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_046a6ac319b24377d79fa1e0d29880dd = L.polyline(
+                [[-23.545332, -46.733202], [-23.540593, -46.73656]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_fc464c398eadb1d09e41f8aff1a9c125 = L.polyline(
+                [[-23.540593, -46.73656], [-23.540593, -46.73656]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_62f2c85ee5f7455a321e5b9a2d10f3a9 = L.polyline(
+                [[-23.540593, -46.73656], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_78ff366e931f7152c9539cfbff4ef238 = L.polyline(
+                [[-23.5389, -46.734338], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_c4e89dfdd072676636c47692fd412661 = L.polyline(
+                [[-23.5389, -46.734338], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_2e6f65bf4a67c7cf9abc96b26934cefd = L.polyline(
+                [[-23.5389, -46.734338], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_5752a3b85040bef31d430f9027e0639d = L.polyline(
+                [[-23.5389, -46.734338], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_52b905daae95c06a5ce1aadca58959c2 = L.polyline(
+                [[-23.5389, -46.734338], [-23.5389, -46.734338]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_3f8b75b98f9a99393abe7eaf9c610204 = L.polyline(
+                [[-23.5389, -46.734338], [-23.539655, -46.733487]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_780cfd8e9d7cabfd3283cfd975109d1a = L.polyline(
+                [[-23.539655, -46.733487], [-23.539655, -46.733487]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_d53387a7cb1b6997fa6397b537cbe6c8 = L.polyline(
+                [[-23.539655, -46.733487], [-23.54101, -46.732125]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_3d179d8ff484e031646c4a717798f1ae = L.polyline(
+                [[-23.54101, -46.732125], [-23.54101, -46.732125]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_f06efd69eb7ef914bbdf6fe53bcf2230 = L.polyline(
+                [[-23.54101, -46.732125], [-23.541597, -46.73176]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6a9437ba255d93e35b900ba59c498129 = L.polyline(
+                [[-23.541597, -46.73176], [-23.541597, -46.73176]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_5b70f58104e3cf258e29e59fc0efdac2 = L.polyline(
+                [[-23.541597, -46.73176], [-23.541873, -46.731147]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_345f57d2b6b00bdafe60fa5d992b9e39 = L.polyline(
+                [[-23.541873, -46.731147], [-23.541873, -46.731147]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_4c706fedfbf36b7fa4c8db9e2ca846c4 = L.polyline(
+                [[-23.541873, -46.731147], [-23.541873, -46.731145]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_ccf5757cc6dc95508fec1fda1db8df25 = L.polyline(
+                [[-23.541873, -46.731145], [-23.541873, -46.731145]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_634bd120a2beee3accdb79246e4aaf03 = L.polyline(
+                [[-23.541873, -46.731145], [-23.541873, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_67041a40dc6c61f43bcbe295018a4cd3 = L.polyline(
+                [[-23.541873, -46.731138], [-23.541873, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_f97f280ddccaf05bf3a30ce254fc58c1 = L.polyline(
+                [[-23.541873, -46.731138], [-23.54187, -46.73113]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_7d3dc98b36b893a7ebceed78fe742661 = L.polyline(
+                [[-23.54187, -46.73113], [-23.54187, -46.73113]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_144fd5ec086ded21c58b67acc73844b1 = L.polyline(
+                [[-23.54187, -46.73113], [-23.541862, -46.73113]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_cc58d8dbd93b4c493f3be3a6842160d8 = L.polyline(
+                [[-23.541862, -46.73113], [-23.541862, -46.73113]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_7d1c4b600133f31c4b8b4c49aa924091 = L.polyline(
+                [[-23.541862, -46.73113], [-23.541867, -46.731133]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6ca71dd1b97098a9bcaf301e7fd2aa00 = L.polyline(
+                [[-23.541867, -46.731133], [-23.541867, -46.731133]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_2b67db78b4ea1da6945bc9e94e8cd5c0 = L.polyline(
+                [[-23.541867, -46.731133], [-23.541867, -46.731133]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_5d606e56178f2dc3d49e83e57b459b94 = L.polyline(
+                [[-23.541867, -46.731133], [-23.541867, -46.731133]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_9c5077f8dc239f6b5d4cfa4eee74d391 = L.polyline(
+                [[-23.541867, -46.731133], [-23.541873, -46.731137]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_1f509a63116ba247c12c86e336967fd2 = L.polyline(
+                [[-23.541873, -46.731137], [-23.541873, -46.731137]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_59381dcf21a27c7eda3b2048410c67c0 = L.polyline(
+                [[-23.541873, -46.731137], [-23.541872, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6268dd1e95efcd409e61790f12cf09e9 = L.polyline(
+                [[-23.541872, -46.731138], [-23.541872, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_5d00dcdf76f6078c38126920f555266b = L.polyline(
+                [[-23.541872, -46.731138], [-23.54187, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_aa3183f61b1c527fc76a66472d8010d3 = L.polyline(
+                [[-23.54187, -46.731138], [-23.54187, -46.731138]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_5b1cb8e7a53883768e79452c479c00c8 = L.polyline(
+                [[-23.54187, -46.731138], [-23.54186, -46.731122]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_f38822864d30b13e49b557cd9ea58a65 = L.polyline(
+                [[-23.54186, -46.731122], [-23.54186, -46.731122]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_d1edd449a4a833168fe493434ededd5c = L.polyline(
+                [[-23.54186, -46.731122], [-23.54187, -46.731093]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_b7012db240bea05e3ed5934fe6e0336f = L.polyline(
+                [[-23.54187, -46.731093], [-23.54187, -46.731093]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_0b0ff79379b2439e6b2a3cc58ed79801 = L.polyline(
+                [[-23.54187, -46.731093], [-23.54187, -46.731083]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_c79ee1b07b05153d79ece5466bc53f4d = L.polyline(
+                [[-23.54187, -46.731083], [-23.54187, -46.731083]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_6ef1e18cb2fcf307654db73bdde4c112 = L.polyline(
+                [[-23.54187, -46.731083], [-23.54187, -46.731083]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_9ccb130f75ea3f5e64f3fe676dbc22f0 = L.polyline(
+                [[-23.54187, -46.731083], [-23.54187, -46.731083]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var poly_line_1649b119f964fe943b22a806bb237012 = L.polyline(
+                [[-23.54187, -46.731083], [-23.54187, -46.731083]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var marker_4ddd38470e037c7d5019b469172bec89 = L.marker(
+                [-23.538856, -46.734199],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_a6e07fe2618ee4e189c005e780c6ee53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f26a55953ea75ebfc9882b4dc4cadde6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51e6485efe4a646aa48d623e229e240c = $(`<div id="html_51e6485efe4a646aa48d623e229e240c" style="width: 100.0%; height: 100.0%;">         <div           <span style="color: #304e59; font-size: 14px; font-weight: bold; font-family: Poppins;">Atendimento:</span>         <span style="color: black; font-size: 12px;font-family: Poppins;">7075449-25</span><br>                  <span style="color: #304e59; font-size: 14px; font-weight: bold; font-family: Poppins;">Especialidade:</span>         <span style="color: black; font-size: 12px;font-family: Poppins;">TECNICO EM 15 MINUTOS</span><br>                  <span style="color: #304e59; font-size: 14px; font-weight: bold; font-family: Poppins;">Abertura:</span>         <span style="color: black; font-size: 12px;font-family: Poppins;">2025-11-27 03:47:08</span><br>                  <span style="color: #304e59; font-size: 14px; font-weight: bold; font-family: Poppins;">Recebimento:</span>         <span style="color: black; font-size: 12px;font-family: Poppins;">2025-11-27 03:48:27</span><br>                  <span style="color: #304e59; font-size: 14px; font-weight: bold; font-family: Poppins;">Início:</span>         <span style="color: black; font-size: 12px;font-family: Poppins;">2025-11-27 04:03:38</span>                  </div>         </div>`)[0];
+                popup_f26a55953ea75ebfc9882b4dc4cadde6.setContent(html_51e6485efe4a646aa48d623e229e240c);
+            
+        
+
+        marker_4ddd38470e037c7d5019b469172bec89.bindPopup(popup_f26a55953ea75ebfc9882b4dc4cadde6)
+        ;
+
+        
+    
+    
+                marker_4ddd38470e037c7d5019b469172bec89.setIcon(icon_a6e07fe2618ee4e189c005e780c6ee53);
+            
+    
+            var marker_814c658817506937e7d2d5ab0a66c9da = L.marker(
+                [-23.67425, -46.84413],
+                {
+}
+            ).addTo(map_7c814dcb3b363d59aff31c2f0cb068b5);
+        
+    
+            var icon_d9aadd442e597d446910aa0ea2e76153 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b6497e5271b7a9c9e096247d27e60a72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b44427194c5550657251d255755dd6f = $(`<div id="html_6b44427194c5550657251d255755dd6f" style="width: 100.0%; height: 100.0%;">JNC DURAES AUTO SOCORRO</div>`)[0];
+                popup_b6497e5271b7a9c9e096247d27e60a72.setContent(html_6b44427194c5550657251d255755dd6f);
+            
+        
+
+        marker_814c658817506937e7d2d5ab0a66c9da.bindPopup(popup_b6497e5271b7a9c9e096247d27e60a72)
+        ;
+
+        
+    
+    
+                marker_814c658817506937e7d2d5ab0a66c9da.setIcon(icon_d9aadd442e597d446910aa0ea2e76153);
+            
+</script>
+</html>
